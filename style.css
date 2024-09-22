@@ -19,6 +19,12 @@
 	url("fonts/TTLakes-Bold.ttf") format("truetype");
 }
 
+@media (min-width: 320px) {
+	body {
+		width: 100%;
+	}
+}
+
 body {
 	width: 320px;
 	height: 100%;
