@@ -19,15 +19,9 @@
 	url("fonts/TTLakes-Bold.ttf") format("truetype");
 }
 
-@media (min-width: 320px) {
-	body {
-		width: 100%;
-	}
-}
-
 body {
 	width: 320px;
-	height: 100%;
+	height: auto;	
 	margin: 0;
 	font-family: "TT Lakes";
 	box-shadow: 5px 0 50px 0 rgba(0, 0, 0, 0.2);
@@ -40,9 +34,10 @@ body {
 	padding: 0;
 }
 
-main {
-	height: 100%;
+main {/
 	width: auto;
+	height: 70vh;
+	overflow: hidden;
 }
 
 .nav {
@@ -93,6 +88,7 @@ main {
 .main__sidebar {
 	display: flex;
 	flex-direction: column;
+	margin-bottom: auto;
 }
 
 .main__sidebar .block {
@@ -130,6 +126,10 @@ main {
 	margin-left: -5px;
 }
 
+footer {
+	margin-top: auto;
+}
+
 .main__footer {
 	margin-top: auto;
 }
@@ -138,8 +138,8 @@ main {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: center;
-	margin-top: 268px;
-	margin-bottom: 16px;
+	margin-top: auto;
+	margin-bottom: 16px;	
 }
 
 .main__footer-menu--button-6 {
