@@ -21,7 +21,8 @@
 
 body {
 	width: 320px;
-	height: auto;/
+	height: auto;
+	overflow: hidden;
 	margin: 0;
 	font-family: "TT Lakes";
 	box-shadow: 5px 0 50px 0 rgba(0, 0, 0, 0.2);
